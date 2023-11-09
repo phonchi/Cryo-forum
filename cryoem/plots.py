@@ -671,10 +671,10 @@ def plot_angles_histogram(angles_list, labels=None, plot_settings=None):
         axs[1].hist(angles_list[i][:,1], alpha=plot_settings_final["alpha"])
         axs[2].hist(angles_list[i][:,2]%(2*np.pi), alpha=plot_settings_final["alpha"], label="" if labels is None else labels[i])
 
-    axs[0].set_xlabel(r"$\theta_3$ [rad]", fontsize=plot_settings_final["label_size"])
+    axs[0].set_xlabel(r"$\psi$ [rad]", fontsize=plot_settings_final["label_size"])
     axs[0].set_ylabel("Number of orientations", fontsize=plot_settings_final["label_size"])
-    axs[1].set_xlabel(r"$\theta_2$ [rad]", fontsize=plot_settings_final["label_size"])
-    axs[2].set_xlabel(r"$\theta_1$ [rad]", fontsize=plot_settings_final["label_size"])
+    axs[1].set_xlabel(r"$\theta$ [rad]", fontsize=plot_settings_final["label_size"])
+    axs[2].set_xlabel(r"$\phi$ [rad]", fontsize=plot_settings_final["label_size"])
     axs[0].set_xlim(0,2*np.pi)
     axs[1].set_xlim(0,np.pi)
     axs[2].set_xlim(0,2*np.pi)
