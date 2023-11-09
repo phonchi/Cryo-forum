@@ -42,4 +42,5 @@ Cryo-forum is open source software released under the [GNU General Public Licens
 
 ## Credit
 The code base is uilt upon the code develpoed by [Jelena Banjac](https://github.com/JelenaBanjac/protein-reconstruction) and the code https://github.com/utiasSTARS/bingham-rotation-learning/tree/1c5ee6626f99522f85f1d6c106b1230be9be09cc.
+
 The visulization code for binham distribution is adapted from [here](https://github.com/woven-planet/BinghamNLL/tree/main)
