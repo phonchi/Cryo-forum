@@ -1,46 +1,53 @@
-# Cryo-forum -  A framework for orientation recovery with uncertainty measure with the application in cryo-EM image analysis
+# Cryo-forum
+**A Framework for Orientation Recovery with Uncertainty Measurement in Cryo-EM Image Analysis**
 
-Cryo-forum is a framwork that allows the developers to experiment with different stratgies for orientation recovery in cryo-EM.
+Cryo-forum is a framework designed to facilitate experimentation with various strategies for orientation recovery in cryo-electron microscopy (cryo-EM).
 
-## Manuscript:
+## Manuscript
 
-[Cryo-forum: A framework for orientation recovery with uncertainty measure with the application in cryo-EM image analysis](https://arxiv.org/abs/2307.09847)
+- **Cryo-forum: A Framework for Orientation Recovery with Uncertainty Measurement in Cryo-EM Image Analysis**
+  - Author: Szu-Chi Chung
+  - [Read the Manuscript](https://arxiv.org/abs/2307.09847)
 
-Szu-Chi Chung
+## How to Use the Library
 
-## How to use the library
-### Install 
+### Installation 
 
-If you do not have the Anaconda python distribution, [please install it following the instructions](https://www.anaconda.com/download).
+**Prerequisite**: If you do not have the Anaconda Python distribution, [install it here](https://www.anaconda.com/download).
 
-To create a conda environment for cryo-forum (More information on conda environments can be found [here](https://conda.io/docs/user-guide/tasks/manage-environments.html)):
+**Create a Conda Environment for Cryo-forum**: 
+- More information on managing conda environments can be found [here](https://conda.io/docs/user-guide/tasks/manage-environments.html).
 ```
 conda create --name cryoforum python=3.10
 conda activate cryoforum
 ```
 
-Now install the dependencies:
+**Install Dependencies**:
 ```
 pip install mrcfile wandb ipyvolume seaborn tensorflow_probability==0.20.0 tensorflow==2.12 tensorflow-graphics tensorflow_similarity scikit-image ipython_genutils notebook quaternion
 ```
 
 ### Setup
-Finally clone the repository and change the directory:
+
+**Clone the Repository and Change Directory**:
 ```
 git clone https://github.com/phonchi/Cryo-forum.git
 cd Cryo-forum
 ```
 
-### Tutorials and guides
-See the [Example Notebook](notebooks/) where you can find detail documentation about the analysis for synthetic and real datasets.
+### Tutorials and Guides
 
-### Data and Pretrained model
-If you wish to use the pretrained model or the data, you can find them in [pretrained model](/models) and [data](data/).
+- Explore the [Example Notebook](notebooks/) for detailed documentation and analysis on both synthetic and real datasets.
+
+### Data and Pretrained Model
+
+- Access the pretrained model and data at [Pretrained Model](/models) and [Data](data/) respectively.
 
 ## License
-Cryo-forum is open source software released under the [GNU General Public License, Version 3](https://github.com/phonchi/Cryo-forum/blob/master/LICENSE).
 
-## Credit
-The code base is uilt upon the code develpoed by [Jelena Banjac](https://github.com/JelenaBanjac/protein-reconstruction) and the code https://github.com/utiasSTARS/bingham-rotation-learning/tree/1c5ee6626f99522f85f1d6c106b1230be9be09cc.
+Cryo-forum is released as open source software under the [GNU General Public License, Version 3](https://github.com/phonchi/Cryo-forum/blob/master/LICENSE).
 
-The visulization code for binham distribution is adapted from [here](https://github.com/woven-planet/BinghamNLL/tree/main)
+## Credits
+
+- This code base builds upon the work developed by [Jelena Banjac](https://github.com/JelenaBanjac/protein-reconstruction) and the code available at [Bingham Rotation Learning Repository](https://github.com/utiasSTARS/bingham-rotation-learning/tree/1c5ee6626f99522f85f1d6c106b1230be9be09cc).
+- The visualization code for the Bingham distribution is adapted from [this source](https://github.com/woven-planet/BinghamNLL/tree/main).
