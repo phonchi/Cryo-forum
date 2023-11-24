@@ -1,7 +1,5 @@
 ## Cryo-Forum Tutorial Series
 
-Explore our comprehensive tutorial series designed to guide you through the world of cryo-electron microscopy data analysis using the Cryo-Forum framework.
-
 - [**00_ribosome_analysis.ipynb**](00_ribosome_analysis.ipynb): 
   - **Focus**: Synthetic Dataset Analysis.
   - **Key Aspects**: Environment setup, data generation, hyperparameter tuning, model building, and result interpretation.
