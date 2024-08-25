@@ -7,7 +7,7 @@ Cryo-forum is a framework designed to facilitate experimentation with various st
 
 - **Cryo-forum: A Framework for Orientation Recovery with Uncertainty Measurement in Cryo-EM Image Analysis**
   - Author: Szu-Chi Chung
-  - [Read the Manuscript](https://arxiv.org/abs/2307.09847)
+  - [Read the Manuscript](https://www.sciencedirect.com/science/article/pii/S1047847723001211)
 
 ## How to Use the Library
 
